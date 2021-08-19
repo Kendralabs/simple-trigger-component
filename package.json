@@ -9,9 +9,11 @@
   "author": "elastic.io GmbH",
   "license": "BSD-2-Clause",
   "scripts": {
+    "start": "node ./node_modules/ferryman/runGlobal.js",
     "test": "NODE_ENV=test mocha spec --recursive"
   },
   "dependencies": {
+    "@openintegrationhub/ferryman": "^1.1.5",
     "elasticio-node": "0.0.8",
     "elasticio-sailor-nodejs": "2.6.24"
   },
