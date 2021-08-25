@@ -6,7 +6,6 @@ RUN apk --no-cache add \
     libc6-compat
 
 WORKDIR /usr/src/app
-
 COPY package.json /usr/src/app
 
 RUN npm install --production
