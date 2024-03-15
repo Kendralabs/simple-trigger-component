@@ -15,7 +15,7 @@
   "dependencies": {
     "@openintegrationhub/ferryman": "^1.1.5",
     "elasticio-node": "0.0.8",
-    "elasticio-sailor-nodejs": "2.6.24"
+    "elasticio-sailor-nodejs": "2.6.28"
   },
   "devDependencies": {
     "@elastic.io/component-logger": "0.0.1",
